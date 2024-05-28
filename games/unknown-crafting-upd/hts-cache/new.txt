@@ -1,5 +1,0 @@
-date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
-17:16:36	125/125	---MCZ	404	error ('Not%20Found')	text/html	date:Tue,%2028%20May%202024%2016:16:35%20GMT	https://eaglercraft.com/robots.txt		(from )
-17:16:36	974/974	---MCZ	200	added ('OK')	text/html	date:Mon,%2027%20May%202024%2001:50:12%20GMT	https://eaglercraft.com/mc/1.8.8/	C:/Users/loomi/Documents/websites/eaglercraft/eaglercraft.com/mc/1.8.8/index.html	(from )
-17:16:36	15779/15779	---MCZ	200	added ('OK')	application/javascript	etag:W/%22664d661a-3da3%22	https://eaglercraft.com/js/loader.js	C:/Users/loomi/Documents/websites/eaglercraft/eaglercraft.com/js/loader.js	(from https://eaglercraft.com/mc/1.8.8/)
-17:16:36	2665/2665	---M--	200	added ('OK')	image/png	etag:%2263d6191c-a69%22	https://eaglercraft.com/img/game.png	C:/Users/loomi/Documents/websites/eaglercraft/eaglercraft.com/img/game.png	(from https://eaglercraft.com/mc/1.8.8/)
