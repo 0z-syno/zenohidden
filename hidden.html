@@ -16,7 +16,9 @@
             const username = document.getElementById('username').value;
             const password = document.getElementById('password').value;
             
-            if (username === correctUsername && password === correctPassword) {
+            const validCredentials = credentials.some(cred => cred.username === username && cred.password === password);
+            
+            if (validCredentials) {
                 document.getElementById('hidden-content').style.display = 'block';
                 document.getElementById('login-form').style.display = 'none';
             } else {
