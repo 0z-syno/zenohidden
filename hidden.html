@@ -21,6 +21,7 @@
             if (validCredentials) {
                 document.getElementById('hidden-content').style.display = 'block';
                 document.getElementById('login-form').style.display = 'none';
+                document.getElementById('free').style.display = 'none';
             } else {
                 alert('Incorrect username or password');
             }
@@ -33,6 +34,8 @@
         <input type="text" id="username" placeholder="Username"><br>
         <input type="password" id="password" placeholder="Password"><br>
         <button onclick="checkCredentials()">Login</button>
+    </div>
+    <div id="free">
     <body>
     <p>Also some games here are for free without the need of a user or password</p>
     <p>games available we be listed below and also a side note: Button Clicker has been discontinued by the creator</p>
