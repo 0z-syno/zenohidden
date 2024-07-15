@@ -9,7 +9,7 @@
             const referrer = document.referrer;
             const accessGranted = localStorage.getItem('accessGranted');
 
-            if (!referrer.includes('zenos.pages.dev/hidden.html') && accessGranted !== 'true') {
+            if (!referrer.includes('zenos.pages.dev/hidden') && accessGranted !== 'true') {
                 alert('Access Denied');
                 window.location.href = 'hidden.html'; // redirect to the password page
             }
