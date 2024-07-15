@@ -3,15 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unknown Crafting</title>
+    <title>GAME NAME</title>
     <script>
         window.onload = function() {
             const referrer = document.referrer;
-            const accessGranted = localStorage.getItem('accessGranted');
-
             if (!referrer.includes('zenos.pages.dev/hidden')) {
                 alert('Access Denied');
-                window.location.href = '/hidden.html'; // redirect back to the password page
+                window.location.href = '/hidden'; // redirect back to the password page
             }
         }
     </script>
