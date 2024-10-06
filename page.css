@@ -1,17 +1,16 @@
  /* The sidebar menu */
  .sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 100px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
     left: 0;
-    background-color: #000000; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
+    background-color: #000000;
+    overflow-x: hidden;
     padding-top: 20px;
   }
   
-  /* The navigation menu links */
   .sidenav a {
     padding: 5px 15px 30px 8px;
     text-decoration: none;
@@ -20,18 +19,15 @@
     display: block;
   }
   
-  /* When you mouse over the navigation links, change their color */
   .sidenav a:hover {
     color: #f1f1f1;
   }
-  
-  /* Style page content */
+
   .main {
-    margin-left: 160px; /* Same as the width of the sidebar */
+    margin-left: 160px;
     padding: 0px 10px;
   }
   
-  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -41,4 +37,43 @@
 .login{
     height:23px;
     width:100px;
+}
+
+h1{
+  cursor: text;
+}
+
+.note{
+  line-height: 5px;
+  gap: 10px;
+  cursor: text;
+}
+
+#username{
+  margin-bottom: 5px;
+}
+
+#username,
+#password{
+  border-radius: 50px;
+  text-align: center;
+  width: 200px;
+  height: 30px;
+}
+
+#password{
+  margin-bottom: 10px;
+}
+
+.login-button{
+  border-radius: 50px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+
+/* Cursor */
+
+html{
+  cursor: cell;
 }
