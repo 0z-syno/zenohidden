@@ -49,27 +49,58 @@ h1{
   cursor: text;
 }
 
-#username{
-  margin-bottom: 5px;
-}
-
 #username,
 #password{
-  border-radius: 50px;
+  border-radius: 20px;
   text-align: center;
   width: 200px;
-  height: 30px;
+  height: 50px;
+  z-index: 2;
+  position: fixed;
+  opacity: 80%;
+}
+
+#username{
+  top: 26%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #password{
-  margin-bottom: 10px;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .login-button{
-  border-radius: 50px;
-  width: 100px;
-  height: 30px;
+  border-radius: 20px;
+  width: 200px;
+  height: 80px;
   cursor: pointer;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  top: 45%;
+  left: 50%;
+  z-index: 2;
+  opacity: 80%;
+}
+
+.window{
+  border: 5px solid #000000;
+  height: 300px;
+  width: 250px;
+  z-index: 1;
+  position: fixed;
+  left: 50%;
+  top: 37%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  background: url(p1.jpeg);
+  background-size: 600px;
+  backdrop-filter: blur(1px);
+  -webkit-filter: blur(1px);
+  background-position-x: 20%;
+  background-position-y: 80%;
 }
 
 /* Cursor */
