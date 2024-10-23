@@ -95,7 +95,7 @@ h1{
   top: 37%;
   transform: translate(-50%, -50%);
   border-radius: 50px;
-  background: url(p1.jpeg);
+  background: #000000;
   background-size: 600px;
   backdrop-filter: blur(1px);
   -webkit-filter: blur(1px);
